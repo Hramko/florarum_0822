@@ -435,6 +435,10 @@ a {
     top: 174px;
 }
 
+.product__slider-ctrls .arrow {
+    position: absolute;
+}
+
 .arrow {
     width: 57px;
     height: 57px;
@@ -443,7 +447,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     font-size: 0px;
     cursor: pointer;
     transition: all 0.3s;
@@ -584,3 +587,31 @@ a {
 }
 
 /* Feedback end */
+
+/* Footer */
+.footer {
+    background: #FFBF42;
+    padding: 51px 0px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 81;
+}
+
+.footer__link {
+    flex: 0 0 auto;
+}
+
+.footer__link:after {
+    transform: rotate(-135deg);
+}
+
+/* Footer end*/
